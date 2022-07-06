@@ -1,6 +1,6 @@
 import './Slider.css'
 import { Carousel } from 'react-carousel-minimal';
-import { Button } from 'react-bootstrap';
+import { Button, Container, Row, Col } from 'react-bootstrap';
 
 
 const Slider = () => {
@@ -25,27 +25,59 @@ const Slider = () => {
     ];
 
     return (
-        <div className='carrousel'>
-            <Carousel
-                data={data}
-                time={2000}
-                width="100%"
-                height="500px"
-                radius="10px"
-                automatic={true}
-                dots={true}
-                pauseIconColor="white"
-                pauseIconSize="40px"
-                slideBackgroundColor="darkgrey"
-                slideImageFit="cover"
-            />
-            <img className='spt' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657116460/sportboxsport_bejqd9.png" alt="" srcset="" />
-            <button >
+        <>
+            <section >
+                <Container fluid>
+                    <Row>
+                        <Col className='slideSection' md={12} s={12}>
+                            <div className='carrousel'>
+                                <Carousel
+                                    data={data}
+                                    time={2000}
+                                    width="100%"
+                                    height="766px"
+                                    automatic={true}
+                                    dots={true}
+                                    pauseIconColor="white"
+                                    pauseIconSize="40px"
+                                    slideBackgroundColor="darkgrey"
+                                    slideImageFit="cover"
+                                />
+                            </div>
+                            <Row>
+                                <Col className='header'>
+                                    <div className='title'>
+                                        <h1 >BE FUN. BE SOCIAL. BE STADIUM</h1>
+                                    </div>
+                                    <div>
+                                        <h1 className='subTitle'>IMPULSA TU NEGOCIO Y SORPENDE A TU EQUIPO COMERCIAL</h1>
+                                    </div>
+                                    <div>
+                                        <h1 className='PriceTag'>REGALA EXPERIENCIAS DESDE 12€</h1>
+                                    </div>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col xs={6} md={6}>
+                                    <img className='spt' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657116460/sportboxsport_bejqd9.png" alt="" srcset="" />
+                                </Col>
+                                <Col xs={6} md={{ span: 4, offset: 9 }}>
+                                    <Button className='catlog' variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
+                                </Col>
+                            </Row>
 
-            </button>
-            <Button className='catlog' variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
-            <h1 className='title'>BE FUN. BE SOCIAL. BE STADIUM</h1>
-        </div>
+                        </Col>
+
+
+
+
+                    </Row>
+                </Container>
+
+
+
+            </section>
+        </>
     );
 }
 

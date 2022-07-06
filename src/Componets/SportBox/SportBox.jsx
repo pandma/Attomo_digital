@@ -11,21 +11,21 @@ const SportBox = () => {
                 </Row>
                 <Row>
                     <Col md={{ span: 4, offset: 1 }}>
-                        <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657133154/Nuevo_Sportbox_2_1sportbox_camkgr.png" alt="" srcset="" />
+                        <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657133154/Nuevo_Sportbox_2_1sportbox_camkgr.png" alt="Sport Book" />
 
                     </Col>
                     <Col className='items' md={{ span: 6 }}>
-                        <Row >
+                        <Row className='itemrow' >
                             <Col md={{ span: 3 }}>
-                                <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657133153/Vectorvec1_pttusz.png" alt="" srcset="" />
+                                <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657133153/Vectorvec1_pttusz.png" alt="items" />
                             </Col>
                             <Col md={{ span: 9 }}>
                                 <p>Más de 150 experiencias de prestigio y calidad a escoger</p>
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className='itemrow'>
                             <Col md={{ span: 3 }}>
-                                <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657133153/Vectorvec2_h37ish.png" alt="" srcset="" />
+                                <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657133153/Vectorvec2_h37ish.png" alt="items" />
                             </Col>
                             <Col md={{ span: 9 }}>
                                 <p>
@@ -35,7 +35,7 @@ const SportBox = () => {
                         </Row>
                         <Row>
                             <Col md={{ span: 3 }}>
-                                <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657133153/Vectorvec3_a8tbqp.png" alt="" srcset="" />
+                                <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657133153/Vectorvec3_a8tbqp.png" alt="items" />
                             </Col>
                             <Col md={{ span: 9 }}>
                                 <p>
@@ -47,13 +47,13 @@ const SportBox = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={{ span: 10 }}>
-                        <p>Nuestros expertos te ayudarán a personalizar tu pack que sorprenderá a tu equipo, clientes y red comercial.</p>
+                    <Col md={{ span: 12 }}>
+                        <p className='sportBoxTag'>Nuestros expertos te ayudarán a personalizar tu pack que sorprenderá a tu equipo, clientes y red comercial.</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={6} md={{ span: 4, offset: 4 }}>
-                        <Button variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
+                        <Button className='SportBoxbtn' variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
                     </Col>
                 </Row>
 

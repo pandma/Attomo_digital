@@ -29,7 +29,7 @@ const Slider = () => {
             <section >
                 <Container fluid>
                     <Row>
-                        <Col className='slideSection' md={12} s={12}>
+                        <Col className='slideSection' md={12} xs={12}>
                             <div className='carrousel'>
                                 <Carousel
                                     data={data}
@@ -46,15 +46,25 @@ const Slider = () => {
                             </div>
                             <Row>
                                 <Col className='header'>
-                                    <div className='title'>
-                                        <h1 >BE FUN. BE SOCIAL. BE STADIUM</h1>
-                                    </div>
-                                    <div>
-                                        <h1 className='subTitle'>IMPULSA TU NEGOCIO Y SORPENDE A TU EQUIPO COMERCIAL</h1>
-                                    </div>
-                                    <div>
-                                        <h1 className='PriceTag'>REGALA EXPERIENCIAS DESDE 12€</h1>
-                                    </div>
+                                    <h1 className='title'>
+                                        <font color="#34FF98">BE </font>
+                                        <font color="#ffffff">FUN.</font>
+                                        <font color="#34FF98"> BE </font>
+                                        <font color="#ffffff">SOCIAL.</font>
+                                        <br />
+                                        <font color="#34FF98">B</font>
+                                        <font color="#ffffff">STADIUM</font>
+                                    </h1>
+                                    <h3 className='subTitle'>
+                                        <font color="#ffffff">IMPULSA TU NEGOCIO Y SORPENDE A</font>
+                                        <font color="#FFCC33"> TU EQUIPO COMERCIAL </font>
+                                    </h3>
+                                    <h3 className='PriceTag'>
+                                        <font color="#ffffff">REGALA</font>
+                                        <font color="#34FF98">EXPERIENCIAS</font>
+                                        <font color="#ffffff">DESDE</font>
+                                    </h3>
+                                    <img className='price' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657147724/12_wccie9.png" alt="priceTag" />
                                 </Col>
                             </Row>
                             <Row>
@@ -67,15 +77,8 @@ const Slider = () => {
                             </Row>
 
                         </Col>
-
-
-
-
                     </Row>
                 </Container>
-
-
-
             </section>
         </>
     );

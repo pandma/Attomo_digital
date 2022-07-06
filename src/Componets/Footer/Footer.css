@@ -1,7 +1,82 @@
 .Footer {
+    padding-top: 6%;
     background-color: black;
 }
 
 .lastFoot {
     background-color: black;
+}
+
+.Footer h1 {
+    margin-bottom: 8%;
+    margin-left: 18%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 110.18%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.sellers {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 110.18%;
+    letter-spacing: 0.02em;
+    color: #34FF99;
+}
+
+.vectors {
+    margin-top: 5%;
+    margin-left: 19%;
+    margin-bottom: 10%;
+}
+
+.lineH {
+    position: absolute;
+    width: 27px;
+    height: 0px;
+    left: 733px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(-180deg);
+}
+
+.lineV {
+    position: absolute;
+    width: 27px;
+    height: 0px;
+    left: 732px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.contact {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 97.18%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.contactimg {
+    margin-left: 37%;
+    margin-bottom: 8%;
+}
+
+.lastFoot {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 42%;
 }

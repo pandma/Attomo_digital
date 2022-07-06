@@ -18,25 +18,53 @@
 
 .title {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 963px;
+    height: 214px;
+    left: 239px;
+    top: 169px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5em;
+    line-height: 97.18%;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .subTitle {
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    width: 710px;
+    height: 32px;
+    left: 360px;
+    top: 434px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
 }
 
 .PriceTag {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 90%;
+    left: 40%;
     transform: translate(-50%, -50%);
+    width: 560px;
+    height: 68px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 68px;
 
+}
+
+.price {
+    position: absolute;
+    top: 84%;
+    left: 73%;
+    font-size: larger;
 }
 
 .spt {
@@ -52,14 +80,11 @@
     position: absolute;
     height: 6vh;
     top: 38px;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 88.6%;
-    /* identical to box height, or 18px */
-
     display: flex;
     align-items: center;
     text-align: center;

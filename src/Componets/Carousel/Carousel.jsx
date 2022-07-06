@@ -1,36 +1,31 @@
 import './Carousel.css'
-import { Button, Container, Row, Col } from 'react-bootstrap';
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-
-// import required modules
+import { Container, Row, Col } from 'react-bootstrap';
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper";
+
+
 const Carrousel = () => {
 
     return (
-        <section>
+        <section className='Carrousel'>
             <Container fluid>
                 <Row>
                     <Col>
-                        <h1>PORQUE EL FÚTBOL ES MUCHO MÁS QUE FÚTBOL</h1>
+                        <h1 className='CarrTitle' >PORQUE EL FÚTBOL ES MUCHO MÁS QUE FÚTBOL</h1>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <p>Utiliza nuestras experiencias como palanca comercial</p>
+                        <p className='CarrSubtitle'>Utiliza nuestras experiencias como palanca comercial</p>
                     </Col>
                 </Row>
                 <Row>
                     <Swiper
-                        slidesPerView={1}
+                        slidesPerView={2}
                         centeredSlides={false}
                         slidesPerGroupSkip={1}
                         grabCursor={true}
@@ -43,7 +38,6 @@ const Carrousel = () => {
                                 slidesPerGroup: 2,
                             },
                         }}
-                        scrollbar={true}
                         navigation={true}
                         pagination={{
                             clickable: true,
@@ -63,8 +57,19 @@ const Carrousel = () => {
                         <SwiperSlide>
                             <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657139096/1eee_gk47zp.png" />
                         </SwiperSlide>
-
                     </Swiper>
+                    {/* <Col className='slidedescription1'>
+                        <h1>
+                            Tours INTERACTIVOS + planes de ocio
+                        </h1>
+                        <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657149348/Rectangle_149_edsjc3.png" alt="video" />
+                    </Col>
+                    <Col className='slidedescription2'>
+                        <h1>
+                            ENTRADAS EXCLUSIVAS
+                        </h1>
+                        <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657149348/Rectangle_149_edsjc3.png" alt="video" />
+                    </Col> */}
                 </Row>
             </Container>
         </section>

@@ -1,0 +1,51 @@
+.Carrousel {
+    padding-top: 7%;
+    background-color: #34FF99;
+}
+
+.mySwiper {
+    margin-bottom: 15%;
+}
+
+.CarrTitle {
+    margin-bottom: 3%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 110.18%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.CarrSubtitle {
+    margin-bottom: 3%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 97.18%;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.slidedescription1 {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 411px;
+    height: 93px;
+    left: 180px;
+    top: 3457px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 97.18%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.slidedescription2 {}

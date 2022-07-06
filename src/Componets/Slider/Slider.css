@@ -10,3 +10,32 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.spt {
+    position: absolute;
+    width: 187.87px;
+    height: 42.72px;
+    left: 49.14px;
+    top: 38.64px;
+
+}
+
+.catlog {
+    position: absolute;
+    height: 6vh;
+    left: 1144px;
+    top: 56px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 88.6%;
+    /* identical to box height, or 18px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    background-color: yellow;
+}

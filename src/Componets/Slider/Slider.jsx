@@ -1,12 +1,13 @@
 import './Slider.css'
 import { Carousel } from 'react-carousel-minimal';
+import { Button } from 'react-bootstrap';
 
 
 const Slider = () => {
 
     const data = [
         {
-            image: "https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657105980/Copy_of_Tour_Athletic_Club_1_dvtwso.jpg",
+            image: '../../../img/tour.jpg',
         },
         {
             image: "https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657105980/Copy_of_Tour_Athletic_Club_1_dvtwso.jpg",
@@ -22,11 +23,6 @@ const Slider = () => {
         },
 
     ];
-    const captionStyle = {
-        fontSize: '2em',
-        fontWeight: 'bold',
-    }
-
 
     return (
         <div className='carrousel'>
@@ -43,6 +39,11 @@ const Slider = () => {
                 slideBackgroundColor="darkgrey"
                 slideImageFit="cover"
             />
+            <img className='spt' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657116460/sportboxsport_bejqd9.png" alt="" srcset="" />
+            <button >
+
+            </button>
+            <Button className='catlog' variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
             <h1 className='title'>BE FUN. BE SOCIAL. BE STADIUM</h1>
         </div>
     );

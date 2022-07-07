@@ -36,7 +36,7 @@ const PartnerVideo = () => {
                 <Row className='partnerPhone'>
                     <Col>
                         <Row>
-                            <Col xs={6}>
+                            <Col id='phoneImg' xs={6}>
                                 <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657188247/Torres_urjtxq.png" alt="" />
                                 <br />
                                 <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657188247/logo-codere-new-v2_bfkzlg.png" alt="" />
@@ -47,7 +47,7 @@ const PartnerVideo = () => {
                                 <br />
                                 <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657195723/SEUR_khoqop.png" alt="" />
                             </Col>
-                            <Col xs={6}>
+                            <Col id='phoneImgR' xs={6}>
                                 <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657188247/Logo-Damm_fuekpy.png" alt="" />
                                 <br />
                                 <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657188247/Cruzados_la1saw.png" alt="" />

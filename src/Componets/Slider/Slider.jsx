@@ -75,7 +75,6 @@ const Slider = () => {
                                     <Button className='catlog' variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
                                 </Col>
                             </Row>
-
                         </Col>
                     </Row>
                 </Container>
@@ -101,22 +100,24 @@ const Slider = () => {
                                         </Col>
                                         <Col xs={12}>
                                             <h3 className='subTitlePhone'>
-                                                <font color="#ffffff">IMPULSA TU NEGOCIO Y SORPENDE A</font>
-                                                <font color="#FFCC33"> TU EQUIPO COMERCIAL </font>
+                                                <font color="#ffffff">IMPULSA TU NEGOCIO Y SORPRENDE A TU EQUIPO, CLIENTES Y RED COMERCIAL CON</font>
+                                                <font color="#FFCC33"> EXPERIENCIAS DEPORTIVAS ORIGINALES Y EXCLUSIVAS </font>
                                             </h3>
                                         </Col>
-                                        <Col xs={12}>
+                                        <Col xs={6}>
                                             <h3 className='PriceTagPhone'>
                                                 <font color="#ffffff">REGALA</font>
-                                                <font color="#34FF98">EXPERIENCIAS</font>
-                                                <font color="#ffffff">DESDE</font>
+                                                <font color="#34FF98"> SPORTBOX</font>
+                                                <font color="#ffffff"> DESDE</font>
                                             </h3>
                                         </Col>
+                                        <Col xs={6}>
+                                            <img className='pricePhone' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657147724/12_wccie9.png" alt="priceTag" />
+                                        </Col>
+                                        <Col>
+                                            <img className='WhatsappLogo' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657193846/Vector_ksrk2r.png" alt="priceTag" />
+                                        </Col>
                                     </Row>
-
-
-
-                                    <img className='pricePhone' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657147724/12_wccie9.png" alt="priceTag" />
                                 </Col>
                             </Row>
                             <Row>
@@ -124,10 +125,11 @@ const Slider = () => {
                                     <img className='sptPhone' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657116460/sportboxsport_bejqd9.png" alt="" srcset="" />
                                 </Col>
                                 <Col xs={6} md={{ span: 4, offset: 9 }}>
-                                    <Button className='catlogPhone' variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
+                                    <Button className='catlogPhone' variant="warning">
+                                        <p>DESCUBRE NUSTRO CATALOGO
+                                        </p> </Button>
                                 </Col>
                             </Row>
-
                         </Col>
                     </Row>
                 </Container>

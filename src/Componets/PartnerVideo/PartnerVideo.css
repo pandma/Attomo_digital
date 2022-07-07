@@ -72,20 +72,21 @@
         letter-spacing: -0.02em;
     }
 
-    .PartnerTitle p {
+    .PartnerTitleP {
         margin-top: 5%;
-        margin-left: 1%;
-
-
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 97.18%;
+        text-align: center;
+        letter-spacing: -0.02em;
     }
 
     .black {
-        position: absolute;
+        margin: 0;
         width: 344px;
         height: 220px;
-        left: 23px;
-        top: 1302px;
-
         background: #000000;
         border: 28px solid #E3E3E3;
         border-radius: 14px;
@@ -93,5 +94,21 @@
 
     .partner {
         display: none;
+    }
+
+    .thirdTitle {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 97.18%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        margin-top: 72%;
+
+    }
+
+    .partnerPhone {
+        display: contents;
     }
 }

@@ -71,12 +71,46 @@
 }
 
 .contactimg {
-    margin-left: 37%;
     margin-bottom: 8%;
+    margin-left: 34%;
 }
 
 .lastFoot {
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 42%;
+    text-align: center;
+}
+
+.FooterSm {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .FooterSm {
+        display: flex;
+        background-image: url(https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657181478/2_lldsf4.png);
+    }
+
+    .FooterSm h1 {
+        margin-top: 25%;
+        margin-bottom: 25%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 97.18%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .Footer {
+        display: none;
+    }
+
+    .contactimg {
+        margin-bottom: 8%;
+        margin-left: 0;
+    }
 }

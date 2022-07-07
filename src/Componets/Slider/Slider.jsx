@@ -26,7 +26,7 @@ const Slider = () => {
 
     return (
         <>
-            <section >
+            <section className='Slider' >
                 <Container fluid>
                     <Row>
                         <Col className='slideSection' md={12} xs={12}>
@@ -35,7 +35,7 @@ const Slider = () => {
                                     data={data}
                                     time={2000}
                                     width="100%"
-                                    height="766px"
+                                    height="40%"
                                     automatic={true}
                                     dots={true}
                                     pauseIconColor="white"
@@ -45,7 +45,7 @@ const Slider = () => {
                                 />
                             </div>
                             <Row>
-                                <Col className='header'>
+                                <Col className='header' xs={12}>
                                     <h1 className='title'>
                                         <font color="#34FF98">BE </font>
                                         <font color="#ffffff">FUN.</font>
@@ -73,6 +73,58 @@ const Slider = () => {
                                 </Col>
                                 <Col xs={6} md={{ span: 4, offset: 9 }}>
                                     <Button className='catlog' variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
+                                </Col>
+                            </Row>
+
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+
+            <section className='SliderPhone' >
+                <Container fluid>
+                    <Row>
+                        <Col className='slideSectionPhone' md={12} xs={12}>
+                            <Row>
+                                <Col className='headerPhone' xs={12}>
+                                    <Row>
+                                        <Col xs={12}>
+                                            <h1 className='titlePhone'>
+                                                <font color="#34FF98">BE </font>
+                                                <font color="#ffffff">FUN.</font>
+                                                <font color="#34FF98"> BE </font>
+                                                <font color="#ffffff">SOCIAL.</font>
+                                                <br />
+                                                <font color="#34FF98">B</font>
+                                                <font color="#ffffff">STADIUM</font>
+                                            </h1>
+                                        </Col>
+                                        <Col xs={12}>
+                                            <h3 className='subTitlePhone'>
+                                                <font color="#ffffff">IMPULSA TU NEGOCIO Y SORPENDE A</font>
+                                                <font color="#FFCC33"> TU EQUIPO COMERCIAL </font>
+                                            </h3>
+                                        </Col>
+                                        <Col xs={12}>
+                                            <h3 className='PriceTagPhone'>
+                                                <font color="#ffffff">REGALA</font>
+                                                <font color="#34FF98">EXPERIENCIAS</font>
+                                                <font color="#ffffff">DESDE</font>
+                                            </h3>
+                                        </Col>
+                                    </Row>
+
+
+
+                                    <img className='pricePhone' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657147724/12_wccie9.png" alt="priceTag" />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col xs={6} md={6}>
+                                    <img className='sptPhone' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657116460/sportboxsport_bejqd9.png" alt="" srcset="" />
+                                </Col>
+                                <Col xs={6} md={{ span: 4, offset: 9 }}>
+                                    <Button className='catlogPhone' variant="warning">DESCUBRE NUSTRO CATALOGO</Button>
                                 </Col>
                             </Row>
 

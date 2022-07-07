@@ -1,5 +1,5 @@
 import './Footer.css'
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 const Footer = () => {
@@ -47,15 +47,42 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </Container>
+
+            </section>
+            <section className='FooterSm'>
+                <Container>
+                    <Row>
+                        <Col>
+                            <h1>
+                                UTILIZA SPORTBOX COMO PALANCA COMERCIAL
+                            </h1>
+                        </Col>
+                    </Row>
+                </Container>
+
+
             </section>
             <section >
-                <h1 className='contact'>CONTACTA CON NOSOTROS PARA CONOCER MÁS DE NUESTROS PRODUCTOS Y SERVICIOS</h1>
-                <img className='contactimg' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657142553/Group_125e_yvnxp3.png" alt="" />
+                <Container>
+                    <Row>
+                        <Col>
+                            <h1 className='contact'>CONTACTA CON NOSOTROS PARA CONOCER MÁS DE NUESTROS PRODUCTOS Y SERVICIOS</h1>
+                            <img className='contactimg' src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657142553/Group_125e_yvnxp3.png" alt="" />
+                        </Col>
+                    </Row>
+                </Container>
+
             </section>
             <section className='lastFoot'>
-                <div>
-                    <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657142423/Group_134fin_awwd3v.png" alt="" />
-                </div>
+                <Container>
+                    <Row>
+                        <Col>
+                            <img src="https://res.cloudinary.com/dzzkeb6xp/image/upload/v1657142423/Group_134fin_awwd3v.png" alt="" />
+
+                        </Col>
+
+                    </Row>
+                </Container>
             </section>
 
         </>
